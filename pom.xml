@@ -8,7 +8,7 @@
         <id>github</id>
         <name>githubactionslab3</name>
   <!-- FIXME change it to the project's website -->
-        <url>https://github.com/Stephen-Mailey/githubactionslab3</url>
+        <url>https://maven.pkg.github.com/Stephen-Mailey/githubactionslab3</url>
       </repository>
   </distributionManagement>
   <name>Lab2_Cinema_Proj1</name>
