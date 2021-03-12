@@ -34,10 +34,18 @@ jobs:
     - name: Step 3 - Have GitHub Actions build Maven project
       run: mvn -B package --file pom.xml
       
-    - name: Step 4 - List the current directory
+    - name: Step 4 - Set up a cache for Maven  
+      uses: actions/cache@v2
+      with:
+        path: 
+          ~/.m2
+        key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+        restore-keys: ${{ runner.os }}-m2-
+      
+    - name: Step 5 - List the current directory
       run: dir
       
-    - name: Step 5 - List Target directory  
+    - name: Step 6 - List Target directory  
       run: |
         cd target
         dir
