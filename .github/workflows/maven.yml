@@ -31,18 +31,18 @@ jobs:
       with:
         java-version: 11
         
-    - name: Step 3 - Have GitHub Actions build Maven project
-      run: |
-           mvn -B package --file pom.xml
-           mkdir staging && copy target/*.jar staging
-      
-    - name: Step 4 - Set up a cache for Maven  
+    - name: Step 3 - Set up a cache for Maven  
       uses: actions/cache@v2
       with:
         path: 
           ~/.m2
         key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
         restore-keys: ${{ runner.os }}-m2-
+        
+    - name: Step 4 - Have GitHub Actions build Maven project
+      run: |
+           mvn -B package --file pom.xml
+           mkdir staging && copy target/*.jar staging 
       
     - name: Step 5 - List the current directory
       run: dir
@@ -55,5 +55,5 @@ jobs:
     - name: Step 7 - Persist workflow data as artifacts
       uses: actions/upload-artifact@v2
       with: 
-        name: github-actions-artifactlab3
+        name: github-actions-artifact_lab3
         path: staging
