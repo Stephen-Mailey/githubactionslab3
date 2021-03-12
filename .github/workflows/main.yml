@@ -1,20 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
-
-# Controls when the action will run. 
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
  name: Publish package to GitHub Packages
-on:
+ 
+ on:
   release:
     types: [created]
-jobs:
+ jobs:
   publish:
     runs-on: windows-latest
     steps:
