@@ -32,7 +32,9 @@ jobs:
         java-version: 11
         
     - name: Step 3 - Have GitHub Actions build Maven project
-      run: mvn -B package --file pom.xml
+      run: |
+           mvn -B package --file pom.xml
+           mkdir staging && copy target/*.jar staging
       
     - name: Step 4 - Set up a cache for Maven  
       uses: actions/cache@v2
@@ -49,3 +51,9 @@ jobs:
       run: |
         cd target
         dir
+        
+    - name: Step 7 - Persist workflow data as artifacts
+      uses: actions/upload-artifact@v2
+      with: 
+        name: github-actions-artifactlab3
+        path: staging
