@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"ie.lyit.lab2","l":"CinemaApp"},{"p":"<Unnamed>","l":"CinemaAppTest"},{"p":"ie.lyit.lab2","l":"Movie"},{"p":"ie.lyit.lab2","l":"Snack"},{"p":"<Unnamed>","l":"SnackTest"}]

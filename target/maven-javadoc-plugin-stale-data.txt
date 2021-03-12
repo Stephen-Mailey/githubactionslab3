@@ -1,0 +1,25 @@
+cmd.exe
+/X
+/C
+""C:\Program Files\Java\jdk-11.0.10\bin\javadoc.exe" @options @packages"
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\allclasses-index.html = 1615565562709
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\allclasses.html = 1615565563082
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\allpackages-index.html = 1615565562840
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\constant-values.html = 1615565561430
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\deprecated-list.html = 1615565562971
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\element-list = 1615565560884
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\help-doc.html = 1615565563246
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\index-all.html = 1615565562570
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\index.html = 1615565563122
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\member-search-index.js = 1615565562498
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\member-search-index.zip = 1615565562518
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\options = 1615565551802
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\overview-tree.html = 1615565562147
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\package-search-index.js = 1615565562330
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\package-search-index.zip = 1615565562372
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\packages = 1615565551805
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\script.js = 1615565563499
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\search.js = 1615565563563
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\stylesheet.css = 1615565563400
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\type-search-index.js = 1615565562429
+C:\Users\Stephen\eclipse-workspace\Cinema\target\apidocs\type-search-index.zip = 1615565562461
