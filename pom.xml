@@ -49,7 +49,7 @@
       <version>2.8.2</version>
        <executions>
          <execution>
-            <id>deploy-file</id>
+            <id>deploy-deploy</id>
             <phase>deploy</phase>
             <goals>
             <goal>deploy-file</goal>
