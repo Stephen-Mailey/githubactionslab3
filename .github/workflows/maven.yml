@@ -1,6 +1,6 @@
 # This workflow will build a Java project with Maven
 
-name: Java CI with Maven Package lifecycle Test
+name: Java CI with Maven Package lifecycle Test1
 # Controls when the action will run. 
 on:
   push:
